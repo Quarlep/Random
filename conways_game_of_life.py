@@ -2,9 +2,9 @@ from math import sqrt
 from copy import deepcopy
 
 # the initial data of the cells, shows as X
-inital_data = "XXX,-X-,X-X,-X-"
+inital_data = "XXX--X-,--XX-X-,-X-XX--,-X-X-XX,XX-XX-X"
 
-number_of_turn = 3
+number_of_turn = 5
 
 # each row elements in the inital config
 inital_config = inital_data.split(",")
